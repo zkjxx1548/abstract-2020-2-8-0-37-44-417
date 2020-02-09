@@ -1,13 +1,8 @@
 package com;
 
-public class ChildChicken {
-
+public class ChildChicken extends Chickens {
+  @Override
   public double getPrice() {
     return 1;
   }
-
-  public String getType() {
-    return getClass().getSimpleName();
-  }
-
 }
