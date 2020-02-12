@@ -7,9 +7,9 @@ public class Demo {
     Chickens hen = new Hen();
     Chickens childChicken = new ChildChicken();
 
-    cock.buyChickensBy100();
-    hen.buyChickensBy100();
-    childChicken.buyChickensBy100();
+    cock.buyChickensByMoeny(100);
+    hen.buyChickensByMoeny(100);
+    childChicken.buyChickensByMoeny(100);
   }
 
 }

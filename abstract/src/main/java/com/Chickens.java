@@ -7,7 +7,7 @@ public abstract class Chickens {
         return getClass().getSimpleName();
     }
 
-    public void buyChickensBy100() {
-        System.out.format("100元可以买%s %d只\n", getType(), (int)(100 / getPrice()));
+    public void buyChickensByMoeny(int money) {
+        System.out.format("%d元可以买%s %d只\n", money, getType(), (int)(money / getPrice()));
     }
 }
